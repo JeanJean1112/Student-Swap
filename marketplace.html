@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketplace | StudentSwap</title>
+<meta name="description" content="Browse what verified students are selling on StudentSwap: clothes, kitchenware, sport and travel equipment. Make an offer on any listing.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔁</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="index.html" class="logo" aria-label="StudentSwap home">
+      <span class="logo-mark">
+        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 14C8 10.6863 10.6863 8 14 8H28C31.3137 8 34 10.6863 34 14" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+          <path d="M12 14L8 10M8 14L12 18" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M32 26C32 29.3137 29.3137 32 26 32H12C8.68629 32 6 29.3137 6 26" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+          <path d="M28 26L32 30M32 26L28 22" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <span>Student<em>Swap</em></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="marketplace.html" class="is-active">Marketplace</a>
+      <a href="index.html#how-it-works">How it works</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#team">Team</a>
+      <a href="index.html#join" class="nav-cta btn btn-primary">Start selling</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="index.html#join" class="btn btn-ghost">Log in</a>
+      <a href="index.html#join" class="btn btn-primary">Start selling</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section" style="padding-bottom:0;">
+    <div class="wrap">
+      <p class="eyebrow center">Marketplace</p>
+      <h2 class="section-title center">What verified students are selling</h2>
+      <p class="section-lead center">Make an offer on anything. These listings are examples, shown before launch.</p>
+
+      <div class="market-toolbar">
+        <div class="filter-bar" role="tablist" aria-label="Filter listings">
+          <button class="filter-chip is-active" data-filter="all">All</button>
+          <button class="filter-chip" data-filter="clothing">Clothes</button>
+          <button class="filter-chip" data-filter="kitchen">Kitchenware</button>
+          <button class="filter-chip" data-filter="sport">Sport equipment</button>
+          <button class="filter-chip" data-filter="travel">Travel equipment</button>
+        </div>
+      </div>
+
+      <div class="item-grid" id="itemGrid">
+        <!-- injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap two-col">
+      <div>
+        <p class="eyebrow">Selling something?</p>
+        <h2 class="section-title">List it for free</h2>
+        <p class="section-lead">Sign up with your university email and a Chilean phone number. You only pay 8% when it sells.</p>
+        <a href="index.html#join" class="btn btn-primary btn-lg">Start selling</a>
+      </div>
+      <div class="model-card">
+        <h3>How offers work</h3>
+        <div class="model-row"><span>1. Pick a listing</span><p>The asking price is a starting point.</p></div>
+        <div class="model-row"><span>2. Make an offer</span><p>Suggest the price you want to pay.</p></div>
+        <div class="model-row"><span>3. Agree and hand over</span><p>The seller accepts, declines or counters.</p></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="logo"><span class="logo-mark">
+          <svg width="28" height="28" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 14C8 10.6863 10.6863 8 14 8H28C31.3137 8 34 10.6863 34 14" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+            <path d="M12 14L8 10M8 14L12 18" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M32 26C32 29.3137 29.3137 32 26 32H12C8.68629 32 6 29.3137 6 26" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+            <path d="M28 26L32 30M32 26L28 22" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+      </span>Student<em>Swap</em></span>
+      <p>From students, for students.</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h5>Site</h5>
+        <a href="marketplace.html">Marketplace</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="index.html#faq">FAQ</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="index.html#team">Team</a>
+        <a href="index.html#join">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 StudentSwap. A student class project.</p>
+  </div>
+</footer>
+
+<script src="js/placeholder.js"></script>
+<script src="js/marketplace.js"></script>
+</body>
+</html>
